@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Página de Contato</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Contato</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="principal">
+
+        <div>
+            <h2>Preencha todos os campos!</h2>
+        </div>
+
+        <form>
+            <div class="campo">
+                <label><strong>Nome</strong></label>
+                <input type="text" id="nome" required>
+            </div>
+            <div class="campo">
+                <label><strong>Email</strong></label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="campo">
+                <label><strong>Telefone</strong></label>
+                <input type="text" id="telefone" required>
+            </div>
+            <div class="campo">
+                <label><strong>Sexo</strong></label>
+                <label>
+                    <input type="radio" name="sexo" value="masculino" checked>Masculino
+                </label>
+                <label>
+                    <input type="radio" name="sexo" value="feminino">Feminino
+                </label>
+                <div class="campo">
+                    <br>
+                    <label><strong>Nos diga o que achou do site!</strong></label>
+                    <textarea rows="3" style="width: 26em;" id="area-texto"></textarea>
+                </div>
+
+                <button type="submit" id="botao">Enviar</button>
+
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
