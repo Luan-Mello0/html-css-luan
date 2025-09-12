@@ -39,36 +39,14 @@ h2 {
     margin-top: 10px;
 }
 
-h3 {
+h4{
     margin-left: 10px;
-    margin-top: 25px;
-    font-size: 1.5em;
+    margin-top: 16px;
+    font-size: 1.2em;
 }
 
-p {
+blockquote{
     margin-left: 10px;
-    margin-top: 10px;
-    line-height: 1.3em;
-}
-
-button {
-    padding: 10px;
-    width: 200px;
-    margin-top: 20px;
-    margin-left: 10px;
-    background-color: rgb(0, 196, 0);
-    border: none;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid rgb(0, 255, 123);
-    box-sizing: border-box;
-}
-
-button:hover {
-    cursor: pointer;
-    background-color: rgb(1, 167, 15);
 }
 
 #div-topo {
@@ -114,15 +92,6 @@ button:hover {
     padding: 15px;
 }
 
-#span-valor {
-    color: rgb(99, 148, 26);
-}
-
-#icone-compra {
-    width: 20px;
-    margin-right: 5px;
-}
-
 #link-vendedor{
     color: blue;
 }
@@ -130,4 +99,30 @@ button:hover {
 #link-vendedor:hover{
     color: blue;
     text-decoration: underline;
+}
+
+.avaliacao{
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.img-avaliacao{
+    width: 50px;
+    margin-left: 6px;
+}
+
+.estrelas{
+    display: flex;
+    align-items: center;
+}
+
+.nome-avaliacao{
+    color: rgb(69, 68, 68);
+}
+
+.foto-comprador{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-right: 6px;
 }

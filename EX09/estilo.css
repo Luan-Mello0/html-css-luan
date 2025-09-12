@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 2.3em;
+    display: inline;
+    margin-left: 47px;
+    color: rgb(4, 148, 119);
+}
+
+label {
+    margin-left: 6px;
+    font-size: 20px;
+}
+
+img {
+    width: 15px;
+}
+
+input[type="checkbox"]:checked+label {
+    text-decoration: line-through;
+    color: rgb(5, 116, 49);
+}
+
+#div-principal {
+    width: 360px;
+    height: 480px;
+    background-color: rgb(105, 237, 156);
+    justify-content: center;
+    margin: auto;
+    margin-top: 5em;
+    padding: 20px;
+    padding-top: 30px;
+    border-radius: 20px;
+}
+
+#lista {
+    padding: 30px;
+    text-align: left;
+}
+
+.check {
+    display: block;
+    padding: 10px;
+}
+
+#div-texto {
+    padding: 30px 30px 4px 30px;
+    text-align: center;
+}
+
+#texto {
+    border-radius: 5px;
+    border: 0;
+    padding: 3px;
+}
+
+#adicionar {
+    width: 70px;
+    height: 22px;
+    border: 0;
+    border-radius: 5px;
+    background-color: aquamarine;
+    color: rgb(13, 104, 5);
+}
+
+#adicionar:hover {
+    cursor: pointer;
+    border: 1px solid rgb(3, 148, 63);
+    color: grey;
+}
+
+.remover {
+    border: 0;
+    background-color: rgb(105, 237, 156);
+}
+
+.remover:hover {
+    cursor: pointer;
+    background-color: rgb(232, 98, 98);
+    border-radius: 5px;
+}
+
+.editar{
+    border: 0;
+    background-color: rgb(105, 237, 156);
+    margin-left: 4px;
+}
+
+.editar:hover{
+    cursor: pointer;
+    background-color: rgb(98, 102, 232);
+    border-radius: 5px;
+}

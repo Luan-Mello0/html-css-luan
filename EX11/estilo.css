@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: grey;
+    padding: 20px;
+}
+
+h1 {
+    color: rgb(99, 99, 99);
+}
+
+nav {
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 2px;
+    font-size: 17px;
+}
+
+h2{
+    font-size: 45px;
+}
+
+#princpial {
+    width: 800px;
+    height: 500px;
+    background-color: rgb(238, 238, 238);
+    margin: 0 auto;
+    margin-top: 5em;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 1px 6px 22px 2px rgba(0, 0, 0, 0.71);
+}
+
+#cabecalho {
+    background-color: rgb(194, 194, 194);
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.link-principal {
+    color: brown;
+}
+
+.sub-link {
+    color: rgb(141, 141, 141);
+    margin-left: 20px;
+    text-indent: 20px;
+}
+
+.sub-sub-link {
+    color: black;
+    margin-left: 40px;
+    text-indent: 40px;
+}
+
+#div-topo {
+    display: flex;
+    align-items: center;
+    margin-left: 450px;
+    margin-top: -280px;
+}
+
+#img-logo {
+    width: 100px;
+}
+
+#eli{
+    color: brown;
+}
