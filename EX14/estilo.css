@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    box-shadow: 7px 0px 26px -2px rgba(0,0,0,0.77);
+    min-width: 1430px;
+}
+
+footer{
+    background-color: whitesmoke;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+    min-width: 1400px;
+    color: rgb(1, 163, 163);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    color: rgb(4, 205, 205);
+}
+
+h4{
+    font-size: 27px;
+    color: rgb(3, 166, 166);
+    margin-top: -5px;
+}
+
+h5{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: rgb(92, 92, 92);
+}
+
+p{
+    line-height: 18px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: inline-block;
+    margin-left: 12em;
+}
+
+a{
+    text-decoration: none;
+    padding: 8px;
+    color: #a52a2a;
+    margin-left: 100px;
+}
+
+a:hover{
+    color: white;
+    background-color: brown;
+    border-radius: 10px;
+}
+
+#img-logo{
+    width: 70px;
+}
+
+#div-letras-logo{
+    display: block;
+}
+
+#mercados{
+    display: block;
+    text-align: center;
+    color: rgb(4, 205, 205);
+    font-size: 18px;
+}
+
+#marcado{
+    color: brown;
+    text-decoration: underline;
+    border-radius: 10px;
+}
+
+#marcado:hover{
+    color: white;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+}
+
+#logo-footer{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+#img-logo-footer{
+    width: 30px;
+}
+
+#div-letras-logo-footer{
+    display: block;
+}
+
+#mercados-footer{
+    display: block;
+    text-align: center;
+    color: rgb(4, 205, 205);
+    font-size: 12px;
+    margin-top: -5px;
+}
+
+#mello-footer{
+    font-size: 19px;
+    color: rgb(1, 188, 188);
+}
+
+#p-footer{
+    font-size: 12px;
+    color: black;
+}
+
+#principal{
+    width: 1000px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: 1px solid rgb(223, 223, 223);
+}
+
+#titulo{
+    color: rgb(117, 117, 117);
+    font-size: 30px;
+}
+
+.div-funcionarios{
+    display: flex;
+    margin-top: 20px;
+}
+
+.funcionario{
+    border: 1px solid rgb(163, 163, 163);
+    width: 200px;
+    height: 320px;
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.img-funcionario{
+    width: 150px;
+    border: 3px solid rgb(4, 205, 205);
+    border-radius: 100%;
+}
+
+.destaques-titulo{
+    background-color: rgb(203, 203, 203);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
