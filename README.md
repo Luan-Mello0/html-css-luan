@@ -9,18 +9,18 @@ Cada exercício está separado em uma pasta individual, contendo os arquivos .ht
 Ex01 – Página de Introdução → uso da tag h1 e background-image
 Ex02 – Página de Perfil → img + border-radius
 Ex03 – Portfólio → div + grid
-Ex04 – Blog → <ul> + list-style
-Ex05 – Contato → <form> + box-shadow
-Ex06 – FAQ → <details> + transition
-Ex07 – Login → <input> + border
-Ex08 – Produto → <button> + box-sizing
-Ex09 – Lista de Tarefas → <input> + text-decoration
-Ex10 – Testemunhos → <blockquote> + font-style
-Ex11 – Mapa do Site → <ul> + text-indent
-Ex12 – Galeria de Fotos → <figure> + display
-Ex13 – Promoções → <del> + color
-Ex14 – Perfil da Equipe → <div> + flex
-Ex15 – Lançamento de Produto → <time> + animation
+Ex04 – Blog → ul + list-style
+Ex05 – Contato → form + box-shadow
+Ex06 – FAQ → details + transition
+Ex07 – Login → input + border
+Ex08 – Produto → button + box-sizing
+Ex09 – Lista de Tarefas → input + text-decoration
+Ex10 – Testemunhos → blockquote + font-style
+Ex11 – Mapa do Site → ul + text-indent
+Ex12 – Galeria de Fotos → figure + display
+Ex13 – Promoções → del + color
+Ex14 – Perfil da Equipe → div + flex
+Ex15 – Lançamento de Produto → time + animation
 
 🎯 Objetivo
 Reforçar conceitos fundamentais de HTML5.
