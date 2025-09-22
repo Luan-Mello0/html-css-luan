@@ -6,9 +6,9 @@ O objetivo foi praticar o uso de tags HTML específicas e propriedades CSS aplic
 📂 Estrutura do Repositório
 Cada exercício está separado em uma pasta individual, contendo os arquivos .html e .css correspondentes.
 
-Ex01 – Página de Introdução → uso da tag <h1> e background-image
-Ex02 – Página de Perfil → <img> + border-radius
-Ex03 – Portfólio → <div> + grid
+Ex01 – Página de Introdução → uso da tag h1 e background-image
+Ex02 – Página de Perfil → img + border-radius
+Ex03 – Portfólio → div + grid
 Ex04 – Blog → <ul> + list-style
 Ex05 – Contato → <form> + box-shadow
 Ex06 – FAQ → <details> + transition
