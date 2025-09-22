@@ -42,10 +42,12 @@ Reforçar conceitos fundamentais de HTML5.
 Praticar estilização com CSS3.
 Aprender boas práticas de organização de código e estruturação de páginas web.
 
-🚀 Como visualizar
+🚀 Como visualizar: 
+
 GitHub Pages:
 https://luan-mello0.github.io/html-css-luan/
 
 📚 Tecnologias utilizadas
+
 • HTML5
 • CSS3
